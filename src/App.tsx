@@ -4,7 +4,7 @@ import { HeroSection } from './components/HeroSection';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#f7f9fb] text-[#191c1e] font-sans flex flex-col selection:bg-indigo-500 selection:text-white">
+    <div className="min-h-screen bg-[#fef8e7] text-[#1e1b18] font-sans flex flex-col selection:bg-amber-500 selection:text-white">
       {/* Top Header */}
       <Header />
 

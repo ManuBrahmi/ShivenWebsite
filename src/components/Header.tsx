@@ -3,7 +3,7 @@ import { Sparkles } from 'lucide-react';
 
 export const Header: React.FC = () => {
   return (
-    <header className="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl border-b border-slate-100 shadow-xs">
+    <header className="fixed top-0 w-full z-50 bg-[#fffdf0]/90 backdrop-blur-xl border-b border-amber-200/50 shadow-xs">
       <div className="flex justify-between items-center h-20 px-6 max-w-[1200px] mx-auto">
         {/* Brand Logo */}
         <div className="flex items-center gap-2 group cursor-pointer">

@@ -10,10 +10,10 @@ export const HeroSection: React.FC = () => {
   return (
     <main className="flex-grow hero-bg-gradient min-h-[calc(100vh-80px)] flex flex-col md:flex-row pt-20 pb-8 px-4 md:px-8 overflow-hidden max-w-[1400px] mx-auto w-full gap-6 md:gap-8">
       {/* Left Column: Full Length Portrait */}
-      <div className="w-full md:w-[45%] lg:w-[42%] flex flex-col relative rounded-3xl overflow-hidden shadow-lg border border-slate-200/80 bg-slate-100 min-h-[450px] md:min-h-[calc(100vh-140px)]">
+      <div className="w-full md:w-[45%] lg:w-[42%] flex flex-col relative rounded-3xl overflow-hidden shadow-lg border border-amber-200/80 bg-amber-50/50 min-h-[450px] md:min-h-[calc(100vh-140px)]">
         {/* Decorative blur glows */}
-        <div className="absolute top-0 left-0 w-72 h-72 bg-indigo-500/15 rounded-full blur-3xl z-0 pointer-events-none" />
-        <div className="absolute bottom-0 right-0 w-72 h-72 bg-purple-500/15 rounded-full blur-3xl z-0 pointer-events-none" />
+        <div className="absolute top-0 left-0 w-72 h-72 bg-amber-300/30 rounded-full blur-3xl z-0 pointer-events-none" />
+        <div className="absolute bottom-0 right-0 w-72 h-72 bg-yellow-400/20 rounded-full blur-3xl z-0 pointer-events-none" />
         
         <img
           src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9Hjt4Kw-grNCdnU1KLq6V1Tp3bBqKosLQo_aNqq7BB_q6wiPpoIpVJYAABqYFjSNBNpJYeyt-HlR5e3I6CSEclZh9m4eaA_1gh8sTV_nawY7_YsGbF3i6ZXgbXNzbgacURDOY26bD-1DxX_-HRaiDVTBjtXXWxeNY_LzweHB4i59k_pnpPG7skSbFDRug6nfuFXOJba4P6FLT9mELY7ZKIB0e4ofkepHE9I8qRTrEXCBJQK8tDvJCpaOcrLXZqlSFXldtTXlt2wE"
@@ -26,7 +26,7 @@ export const HeroSection: React.FC = () => {
       <div className="w-full md:w-[55%] lg:w-[58%] flex flex-col justify-between py-2 min-h-[calc(100vh-140px)]">
         {/* Top Header Information */}
         <div className="mb-6 flex-shrink-0">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-indigo-50 border border-indigo-100 text-[#4648d4] font-extrabold text-xs tracking-widest uppercase mb-3">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-100/80 border border-amber-300/80 text-[#4648d4] font-extrabold text-xs tracking-widest uppercase mb-3">
             <Sparkles className="w-3.5 h-3.5 text-[#4648d4]" />
             Learn English with Shiven
           </div>
