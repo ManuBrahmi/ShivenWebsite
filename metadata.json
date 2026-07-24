@@ -1,0 +1,6 @@
+{
+  "name": "Learn English with Shiven",
+  "description": "An interactive English learning platform to help students master spoken English, grammar, vocabulary, and pronunciation with practical lessons, AI speech practice, and daily tips.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
